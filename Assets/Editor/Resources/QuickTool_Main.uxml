@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns="UnityEngine.UIElements" editor-extension-mode="True">
+    <ui:Template name="button-template" src="project://database/Assets/Editor/Resources/ButtonTemplate.uxml?fileID=9197481963319205126&amp;guid=bc703d28297e47ea9098b3d260ae412d&amp;type=3#ButtonTemplate" />
+    <Style src="project://database/Assets/Editor/Resources/QuickTool_Style.uss?fileID=7433441132597879392&amp;guid=a1919328b5854aceb35637e1b01a304f&amp;type=3#QuickTool_Style" />
+    <ui:VisualElement class="buttons-container">
+        <ui:Instance template="button-template" name="Cube" />
+        <ui:Instance template="button-template" name="Sphere" />
+        <ui:Instance template="button-template" name="Capsule" />
+        <ui:Instance template="button-template" name="Cylinder" />
+        <ui:Instance template="button-template" name="Plane" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:TextField picking-mode="Ignore" label="Name" value="New Item" binding-path="_name" name="Name" text="New Item" />
+    <ui:IntegerField label="Amount" value="1" binding-path="_amount" name="Amount" />
+    <ui:ListView focusable="true" reorderable="true" show-foldout-header="true" header-title="Properties" binding-path="_properties" name="Properties" show-border="true" reorder-mode="Animated" show-alternating-row-backgrounds="All" virtualization-method="DynamicHeight" show-add-remove-footer="true" />
+</ui:UXML>

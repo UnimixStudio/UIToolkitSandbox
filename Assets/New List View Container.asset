@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2b4fec00c6a4602a38f53cec68dd361, type: 3}
+  m_Name: New List View Container
+  m_EditorClassIdentifier: 
+  _item:
+    _name: 
+    _amount: 0
+    _properties:
+    - rid: 2810078655846809634
+    - rid: 2810078655846809641
+    - rid: 2810078655846809642
+  references:
+    version: 2
+    RefIds:
+    - rid: 2810078655846809634
+      type: {class: CountItemProperty, ns: ListViewExample, asm: Assembly-CSharp}
+      data:
+        _name: HP
+        Count: 3
+    - rid: 2810078655846809641
+      type: {class: ColorItemProperty, ns: ListViewExample, asm: Assembly-CSharp}
+      data:
+        _name: HP Color
+        Color: {r: 0.7735849, g: 0.1707725, b: 0.6400367, a: 1}
+    - rid: 2810078655846809642
+      type: {class: DependencyItems, ns: ListViewExample, asm: Assembly-CSharp}
+      data:
+        _items: []

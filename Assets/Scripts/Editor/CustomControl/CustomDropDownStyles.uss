@@ -1,0 +1,26 @@
+﻿.dropdown {
+    left: 50px;
+    top: 50px;
+    width: 200px;
+    height: 20px;
+    background-color: white;
+    border-color: black;
+    border-width: 1px;
+}
+
+.dropdown-button {
+    top: 5px;
+    flex-shrink: 1;
+    flex-direction: row;
+    background-color: white;
+    border-color: black;
+    border-width: 1px;
+}
+
+.dropdown-menu {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-color: black;
+    border-width: 1px;
+}

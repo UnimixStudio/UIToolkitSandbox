@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements"
+         xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements"
+         noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:ListView focusable="true" reorderable="true" binding-path="_numbers" show-border="true"
+                 selection-type="Multiple" show-alternating-row-backgrounds="All" show-foldout-header="true"
+                 tooltip="Numbers" usage-hints="-1" virtualization-method="FixedHeight" name="Numbers"
+                 header-title="Numbers" show-add-remove-footer="true"/>
+</ui:UXML>
